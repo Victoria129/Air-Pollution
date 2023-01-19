@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(241, 118, 138);
+  color: #fff;
+}
+
+.container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  max-width: 10rem;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid rgb(243, 108, 131);
+  background: rgb(240, 91, 116);
+}
+
+.container:hover {
+  background-color: rgb(220, 84, 107);
+}
+
+.pollution-card {
+  display: block;
+  align-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+  max-width: 50%;
+  margin: auto;
+  border: 1px solid rgb(243, 108, 131);
+  background: rgb(240, 91, 116);
+}

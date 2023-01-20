@@ -4,7 +4,13 @@ import App from './App'
 import './index.css'
 import HomePage from './pages/home-page'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Pollution from './components/Pollution'
+import Pollution from './components/Pollution';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+
+import {fetchAllCountries} from './redux/countriesSlice'
+
+store.dispatch(fetchAllCountries())
 
 const router = createBrowserRouter([
   {
@@ -17,7 +23,9 @@ const router = createBrowserRouter([
   },
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <>
+    <Provider store={store}>
     <RouterProvider router={router} />
-  </React.StrictMode>,
+    </Provider>
+  </>,
 )

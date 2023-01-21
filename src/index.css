@@ -9,19 +9,19 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row;
+
+  /* flex-direction: row; */
   justify-content: center;
   max-width: 100rem;
   color: #fff;
-  flex-flow: row wrap;
+  flex-flow: wrap;
   background: rgb(240, 91, 116);
 }
 
 img {
-  width:100px;
-  height:50px;
-  margin: 0, 0, 0, 100px;
-  /* border: 2px solid green; */
+  width: 100px;
+  height: 50px;
+  margin: auto;
 }
 
 .view-polution-btn {

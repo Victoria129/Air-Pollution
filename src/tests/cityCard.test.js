@@ -1,4 +1,3 @@
-// import CityCard from "../components/CityCard";
 import { render } from '@testing-library/react';
 import React from 'react';
 import { CityCard } from './utils';

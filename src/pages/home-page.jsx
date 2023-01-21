@@ -21,7 +21,6 @@ const handleContinentChange=(continent)=>{
 
 return (
   <>
-
      <button onClick={()=>handleContinentChange("All")}>All</button>
      <button onClick={()=>handleContinentChange("Africa")}>Africa</button>
      <button onClick={()=>handleContinentChange("Asia")}>Asia</button>
@@ -43,7 +42,6 @@ return (
 })
     }
   </div>
-
   </>
 )
 }

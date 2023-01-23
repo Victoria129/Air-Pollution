@@ -94,10 +94,11 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://63ce65ee6de26f3b068bbbd6--gregarious-croissant-eb0f67.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+- [Video-presentation](https://drive.google.com/file/d/1EdGAYtKE1KW9DTjJrs8zkQjjaf1bwrR8/view?usp=sharing)
 
 ## 🚀 Video Presentation <a name="live-demo"></a>
 

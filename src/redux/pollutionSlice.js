@@ -9,7 +9,7 @@ const initialState = {
 };
 
 export const fetchPollutionData = createAsyncThunk('pollution/fetchPollutionData', async (params) => {
-  const response = await fetch(`http://api.openweathermap.org/data/2.5/air_pollution?${new URLSearchParams({
+  const response = await fetch(`https://api.openweathermap.org/data/2.5/air_pollution?${new URLSearchParams({
     lat: params.lat,
     lon: params.lon,
     appid: API_KEY,

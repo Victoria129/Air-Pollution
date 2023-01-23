@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(221, 211, 211);
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  color: black;
+}
+
+.container {
+  display: flex;
+
+  /* flex-direction: row; */
+  justify-content: center;
+  max-width: 100rem;
+  color: #fff;
+  flex-flow: wrap;
+  background: rgb(240, 91, 116);
+}
+
+img {
+  width: 100px;
+  height: 50px;
+  margin: auto;
+}
+
+.view-polution-btn {
+  margin-top: 20px;
+}
+
+.city-card {
+  display: block;
+  max-width: 150px;
+  padding: 10px;
+}
+
+.view-polution-btn:hover {
+  color: #fff;
+  background-color: rgb(145, 54, 80);
+}
+
+.city-card:hover {
+  background-color: rgb(204, 62, 86);
+}
+
+.pollution-card {
+  display: block;
+  align-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+  max-width: 60%;
+  margin: auto;
+  border: 1px solid rgb(170, 96, 110);
+  background: rgb(224, 133, 146);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.27);
+}

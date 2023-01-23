@@ -93,7 +93,7 @@ After you're finished please remove all the comments and instructions!
 
 
 ## 🚀 Video Presentation <a name="live-demo"></a>
-[Video-presentation](https://drive.google.com/file/d/1EdGAYtKE1KW9DTjJrs8zkQjjaf1bwrR8/view?usp=sharing)
+- [Video-presentation](https://drive.google.com/file/d/1EdGAYtKE1KW9DTjJrs8zkQjjaf1bwrR8/view?usp=sharing)
 
 <!-- GETTING STARTED -->
 

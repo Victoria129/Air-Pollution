@@ -87,12 +87,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://63ce54f7431b303be9db45da--effortless-alfajores-f4b9e3.netlify.app/)
+- [Live Demo Link](https://63ce65ee6de26f3b068bbbd6--gregarious-croissant-eb0f67.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Video Presentation <a name="live-demo"></a>
+[Video-presentation](https://drive.google.com/file/d/1EdGAYtKE1KW9DTjJrs8zkQjjaf1bwrR8/view?usp=sharing)
 
 <!-- GETTING STARTED -->
 

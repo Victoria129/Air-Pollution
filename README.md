@@ -1,10 +1,3 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
 
 REQUIRED SECTIONS:
 - Table of Contents
@@ -94,7 +87,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://63ce54f7431b303be9db45da--effortless-alfajores-f4b9e3.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,6 +205,8 @@ If you like this project please give it a star!
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to acknowledge [Nelson-Sakwa](https://www.behance.net/sakwadesignstudio) author of the original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

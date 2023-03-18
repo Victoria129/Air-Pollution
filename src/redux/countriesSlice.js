@@ -12,29 +12,27 @@ export const changeContinent = createAsyncThunk('countries/changeContinent', asy
   dispatch(setContinent(params));
 });
 
-export const fetchAllCountries = createAsyncThunk(
-  'countries/fetchAllCountries', async () => {
-    const response = await fetch('https://restcountries.com/v3.1/all');
-    const data = await response.json();
-    const sortedCountries = [];
+export const fetchAllCountries = createAsyncThunk('countries/fetchAllCountries', async () => {
+  const response = await fetch('https://restcountries.com/v3.1/all');
+  const data = await response.json();
+  const sortedCountries = [];
 
-    // destructer data to get only what we want
-    data.forEach((country) => {
-      // console.log("country",country)
-      const {
-        name: { common: name }, region: continent, latlng: [lat, lng], flags: { svg: flag },
-      } = country;
+  // destructer data to get only what we want
+  data.forEach((country) => {
+    // console.log("country",country)
+    const {
+      name: { common: name }, region: continent, latlng: [lat, lng], flags: { svg: flag },
+    } = country;
       // eslint-disable-next-line
       const newCountry = {
-        name, continent, lat, lon: lng, flag,
-      };
+      name, continent, lat, lon: lng, flag,
+    };
 
-      sortedCountries.push(newCountry);
-    });
+    sortedCountries.push(newCountry);
+  });
 
-    return sortedCountries;
-  },
-);
+  return sortedCountries;
+});
 
 export const countriesSlice = createSlice({
   name: 'countries',

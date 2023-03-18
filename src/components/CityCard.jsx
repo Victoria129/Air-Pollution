@@ -1,6 +1,6 @@
+import React from 'react';
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { fetchPollutionData} from "../redux/pollutionSlice";
 
 const CityCard = ({name,continent,flag,lat,lon}) => {
   let dispatch = useDispatch()

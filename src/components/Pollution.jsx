@@ -1,9 +1,10 @@
+import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useNavigate } from "react-router-dom";
 import { fetchPollutionData,selectPollutionData } from "../redux/pollutionSlice";
 const Pollution = () => {
-  
+
   let location = useLocation()
   let data = location.state
   // console.log("data", data)
@@ -11,12 +12,12 @@ const Pollution = () => {
   const handleGoBackButton = ()=>{
     navigate(-1)
   }
-  
+
   let pollutionData = useSelector(selectPollutionData(data.name))
   let dispatch = useDispatch()
 
   // dispatch(fetchPollutionData({lat:data.lat,lon:data.lon}))
-  
+
   // console.log("In comp",pollutionData)
 
   useEffect(() => {
@@ -24,10 +25,10 @@ const Pollution = () => {
 
       dispatch(fetchPollutionData({country:data.name,lat:data.lat,lon:data.lon}))
     }
-  
-   
+
+
   }, [data])
-  
+
 
   return (
 <>

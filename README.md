@@ -21,14 +21,6 @@ REQUIRED SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -111,13 +103,6 @@ After you're finished please remove all the comments and instructions!
 To get a local copy up and running, follow these steps.
 ```
   git clone https://github.com/Victoria129/Air-Pollution.git
-```
-
-### Prerequisites
-
-In order to run this project you need:
-
-``` node
 ```
 
 ### Setup
@@ -213,6 +198,8 @@ If you like this project please give it a star!
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to acknowledge [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the author of the original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

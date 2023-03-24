@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import store from '../redux/store';
 import { Provider } from 'react-redux';
+import store from '../redux/store';
 import CityCard from '../components/CityCard';
 
 const fakeData = {
@@ -11,11 +11,12 @@ const fakeData = {
 
 test('should render CityCard', () => {
   render(
-  <Provider store={store}>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' component={<CityCard props={fakeData} />}/>
-      </Routes>
-    </BrowserRouter>
-  </Provider>);
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" component={<CityCard props={fakeData} />} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>,
+  );
 });

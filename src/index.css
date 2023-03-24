@@ -3,7 +3,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-weight:400;
-  color: rgb(255, 255, 255);
+  color:rgb(255, 255, 255);
   background-color: rgb(164, 64, 92);
 }
 
@@ -21,7 +21,6 @@ body {
 .container > div:nth-child(even) {
   background-color: #cb4277;
 }
-
 
 img {
   width: 100px;

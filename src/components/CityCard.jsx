@@ -12,17 +12,12 @@ const CityCard = ({name,continent,flag,lat,lon}) => {
     navigate(`${city}`,{state:{name,continent,lat,lon}})
   }
   return (
-    <div className='city-card'>
-    <h1>{name}</h1>
-    <h2>{continent}</h2>
+    <div className='city-card' onClick={() => handleNavigation('city')}>
+    <h4>{name}</h4>
+    <p>lat : {lat}</p>
     <img src={flag} alt="country-flag" />
-    <button className='view-polution-btn' onClick={() => handleNavigation('city')}>
-    view polution
-    </button>
     </div>
   )
 }
-
-
 
 export default CityCard;

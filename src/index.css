@@ -29,17 +29,17 @@ img {
 }
 
 .left-arrow-icon {
-  color: "#fffff";
+  color: #fff;
   margin-right: 30%;
 }
 
 .microphone-icon {
-  color: "#fffff";
+  color: #fff;
   margin-right: 1%;
 }
 
 .gear-icon {
-  color: "#fffff";
+  color: #fff;
 }
 
 .city-card {
@@ -58,7 +58,7 @@ img {
   padding: 20px;
   max-width: 35%;
   margin: auto;
-  border: 1px solid #cb4277;;
+  border: 1px solid #cb4277;
   background-color: #cb4277;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.27);
 }

@@ -3,6 +3,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  padding: 0;
   color: rgb(255, 255, 255);
   background-color: #cb4277;
 }
@@ -11,15 +12,8 @@ body {
   display: grid;
   justify-content: center;
   flex-flow: wrap;
-  grid-template-columns: repeat(7, 10rem);
-}
-
-.container > div:nth-child(odd) {
-  background-color: #dc4782;
-}
-
-.container > div:nth-child(even) {
-  background-color: #cb4277;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);;
 }
 
 img {
@@ -28,14 +22,20 @@ img {
   margin: auto;
 }
 
+.right-arrow-icon {
+  color: #fff;
+  margin-left: 80%;
+}
+
 .left-arrow-icon {
   color: #fff;
-  margin-right: 30%;
+  margin-left: 2%;
 }
 
 .microphone-icon {
   color: #fff;
-  margin-right: 1%;
+  margin-left: 90%;
+  margin-right: 10px;
 }
 
 .gear-icon {
@@ -43,11 +43,16 @@ img {
 }
 
 .city-card {
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 2px 0 rgb(26, 15, 19);
 }
 
 .city-card:hover {
   cursor: pointer;
+}
+
+.pollution-card-header {
+display: flex;
+
 }
 
 .pollution-card {
@@ -55,10 +60,8 @@ img {
   align-content: center;
   align-items: center;
   color: #fff;
-  padding: 20px;
-  max-width: 35%;
+  max-width: auto;
   margin: auto;
   border: 1px solid #cb4277;
   background-color: #cb4277;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.27);
 }

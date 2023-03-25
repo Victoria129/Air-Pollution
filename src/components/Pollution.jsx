@@ -30,12 +30,11 @@ const Pollution = () => {
 
   return (
 <>
-{/* <div className = "pollution-card-header"> */}
+<div className = "pollution-card-header">
 <FontAwesomeIcon className = "left-arrow-icon" onClick={handleGoBackButton} icon={faArrowLeft} size="1xs" />
 <FontAwesomeIcon className = "microphone-icon" icon={faMicrophone} size="1xs" />
 <FontAwesomeIcon className = "gear-icon" icon={faGear} size="1xs" />
-{/* <p className = "polution-stats">Pollution stats</p> */}
-{/* </div> */}
+</div>
 <div className="pollution-card">
 <div className="pollution-details">
   <h1>{data.name}</h1>

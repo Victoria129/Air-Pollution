@@ -14,7 +14,7 @@ const CityCard = ({name,continent,flag,lat,lon}) => {
   }
   return (
     <div className='city-card' onClick={() => handleNavigation('city')}>
-      <FontAwesomeIcon icon={faArrowCircleRight} size="1xs" style={{color: "#fffff", marginLeft: 120}} />
+      <FontAwesomeIcon className = "right-arrow-icon" icon={faArrowCircleRight} size="1xs" />
       <h4>{name}</h4>
       <p>lat : {lat}</p>
       <img src={flag} alt="country-flag" />

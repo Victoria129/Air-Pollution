@@ -12,8 +12,7 @@ body {
   display: grid;
   justify-content: center;
   flex-flow: wrap;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 img {
@@ -51,8 +50,7 @@ img {
 }
 
 .pollution-card-header {
-display: flex;
-
+  display: flex;
 }
 
 .pollution-card {
@@ -60,7 +58,6 @@ display: flex;
   align-content: center;
   align-items: center;
   color: #fff;
-  max-width: auto;
   margin: auto;
   border: 1px solid #cb4277;
   background-color: #cb4277;

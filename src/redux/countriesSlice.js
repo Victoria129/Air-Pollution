@@ -19,7 +19,6 @@ export const fetchAllCountries = createAsyncThunk('countries/fetchAllCountries',
 
   // destructer data to get only what we want
   data.forEach((country) => {
-    // console.log("country",country)
     const {
       name: { common: name }, region: continent, latlng: [lat, lng], flags: { svg: flag },
     } = country;

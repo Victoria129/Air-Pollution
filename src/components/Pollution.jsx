@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faArrowLeft, faMicrophone, faGear} from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -28,7 +30,12 @@ const Pollution = () => {
 
   return (
 <>
-
+{/* <div className = "pollution-card-header"> */}
+<FontAwesomeIcon className = "left-arrow-icon" onClick={handleGoBackButton} icon={faArrowLeft} size="1xs" />
+<FontAwesomeIcon className = "microphone-icon" icon={faMicrophone} size="1xs" />
+<FontAwesomeIcon className = "gear-icon" icon={faGear} size="1xs" />
+{/* <p className = "polution-stats">Pollution stats</p> */}
+{/* </div> */}
 <div className="pollution-card">
 <div className="pollution-details">
   <h1>{data.name}</h1>
@@ -41,8 +48,6 @@ const Pollution = () => {
   <p>Air Quality:  {pollutionData?.stringQuality}</p>
 </div>
 </div>
-
-<button onClick={handleGoBackButton}>Go Back</button>
 </>
   )
 }

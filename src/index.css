@@ -4,7 +4,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: rgb(255, 255, 255);
-  background-color: rgb(164, 64, 92);
+  background-color: #cb4277;
 }
 
 .container {
@@ -28,8 +28,18 @@ img {
   margin: auto;
 }
 
-.view-polution-btn {
-  margin-top: 20px;
+.left-arrow-icon {
+  color: "#fffff";
+  margin-right: 30%;
+}
+
+.microphone-icon {
+  color: "#fffff";
+  margin-right: 1%;
+}
+
+.gear-icon {
+  color: "#fffff";
 }
 
 .city-card {
@@ -46,9 +56,9 @@ img {
   align-items: center;
   color: #fff;
   padding: 20px;
-  max-width: 60%;
+  max-width: 35%;
   margin: auto;
-  border: 1px solid rgb(170, 96, 110);
-  background: rgb(224, 133, 146);
+  border: 1px solid #cb4277;;
+  background-color: #cb4277;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.27);
 }

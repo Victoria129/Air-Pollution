@@ -161,7 +161,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Moses Wamae**
+👤 **Victoria Tumwebaze**
 
 - GitHub: [@Victoria129](https://github.com/Victoria129)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/victoria-tumwebaze/)
